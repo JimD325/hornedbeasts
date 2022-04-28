@@ -1,24 +1,26 @@
-import React from 'react';
-// 'react' above is our dependency react that makes our entire application a react application. 
-import './App.css';
-import Header from './Header';
-import Main from './Main';
-import Footer from './Footer';
+import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css";
+import Header from "./Header";
+import Main from "./Main";
+import Footer from "./Footer";
+import ImageURLs from "./data.json";
 
-// react.component changes class app into a component class app. React.component IS a class that exists within the component library. 
 class App extends React.Component {
-  // when you define a class app in react, you MUST then use the render method, which is built into react, NOT JS. 
-  render () {
+  render() {
     return (
       <div className="App">
-        <Header/>
-        <Main />
-        <Footer />
+        <Header title={"Federal Beast Inspector"} />
+        {/* main is our component,  the first imageURLs is the attribute name, second is variable which is imported above.*/}
+        <Main 
+          imageURLs={ImageURLs}
+          
+          imageDescription={ImageURLs.description} 
+        />
+        <Footer text={""} />
       </div>
-      
     );
   }
 }
 
 export default App;
-// this IS a component, everything from the line above to line one. 

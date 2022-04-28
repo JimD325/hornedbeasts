@@ -1,18 +1,13 @@
-import React from "react";
+import React from  'react';
 
 class Footer extends React.Component {
-  render () {
-    
+  render() {
     return (
       <>
-       <h3>Created by Jim Doyle</h3>
-        
+        <h3>{this.props.text}</h3>
       </>
     )
   }
 }
 
 export default Footer;
-
-
-
