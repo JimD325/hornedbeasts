@@ -1,6 +1,6 @@
 import React from  "react";
 import BeastImage from "./BeastImage";
-import { Container, Row, Col } from 'react-bootstrap';
+
 
 
 class Main extends React.Component {
