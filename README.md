@@ -27,9 +27,9 @@
 
 - Actual time needed to complete: 45min <br>
 
-### Feature 2: Allow users to vote for favorite beast
+### Feature 3: Bootstrap
 
--  Feature 2: Allow users to vote for favorite beast <br>
+-  Feature 2: Add in bootstrap <br>
 
 - Estimate of time needed to complete: 1hr <br>
 
