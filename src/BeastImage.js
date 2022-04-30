@@ -1,6 +1,11 @@
 import React from  'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+
 
 class BeastImage extends React.Component {
   constructor(props){
@@ -18,10 +23,8 @@ class BeastImage extends React.Component {
   render() {
     return (
       
-      
-      <>
-        <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src= {this.props.src} />
+        <Card style={{ width: '18rem' }} bg ={'dark'} text ={'warning'} >
+          <Card.Img variant="top" src= {this.props.imageURL} />
           <Card.Body>
             <Card.Title>{this.props.title}</Card.Title>
             <Card.Text>
@@ -29,17 +32,9 @@ class BeastImage extends React.Component {
             </Card.Text>
           </Card.Body>
           <Card.Body>
+          <Button variant="secondary" onClick={this.handleClick}>Smash that like button {this.state.votes}💗</Button>
           </Card.Body>
-          <Button variant="secondary" onClick={this.handleClick}>Smash that like button {this.state.votes}💗</Button> 
         </Card>
-      
-
-      
-
-        
-        
-      </>
-      
     )
   }
 }
