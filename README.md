@@ -39,3 +39,15 @@
 
 - Actual time needed to complete: 45min <br>
 
+## Lab 2  
+
+- Feature 1: Display a Modal
+
+- Estimate of time needed to complete: 2 hours
+
+- Start time: 330pm
+
+- Finish time: 550PM
+
+- Actual time needed to complete: 2hr 25min
+
