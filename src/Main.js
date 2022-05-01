@@ -1,8 +1,10 @@
 import React from  "react";
-import BeastImage from "./BeastImage";
+import HornedBeast from "./HornedBeast";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container'
+import Container from 'react-bootstrap/Container';
+
+
 
 
 class Main extends React.Component {
@@ -15,7 +17,7 @@ class Main extends React.Component {
           {this.props.Beasts.map(beast => (
           
             <Col>
-              <BeastImage
+              <HornedBeast
                 key={beast._id} 
                 title = {beast.title}
                 imageURL = {beast.image_url}

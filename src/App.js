@@ -6,8 +6,12 @@ import Main from "./Main";
 import Footer from "./Footer";
 import Beasts from "./data.json";
 import Container from 'react-bootstrap/Container';
+import SelectedBeast from "./SelectedBeast";
 
 class App extends React.Component {
+  
+
+  
   render() {
     return (
       <Container>
