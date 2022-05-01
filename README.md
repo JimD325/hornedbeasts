@@ -47,7 +47,7 @@
 
 - Start time: 330pm
 
-- Finish time: 
+- Finish time: 550PM
 
-- Actual time needed to complete: 
+- Actual time needed to complete: 2hr 25min
 
