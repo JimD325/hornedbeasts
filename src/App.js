@@ -9,7 +9,6 @@ import SelectedBeast from './SelectedBeast';
 import Form from 'react-bootstrap/Form';
 
 
-
 class App extends React.Component {
   
   constructor(props){
@@ -54,7 +53,6 @@ class App extends React.Component {
     
 
     return (
-      
       
       <Container>
         <Form>

@@ -3,10 +3,6 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
 
-
-
-
-
 class HornedBeast extends React.Component {
   constructor(props){
     super(props);
@@ -45,14 +41,6 @@ class HornedBeast extends React.Component {
             variant="secondary" 
             onClick={this.handleClick}>Smash that like button {this.state.votes}💗</Button>
             
-            {/* <SelectedBeast 
-              key = {this.props.key}
-              src= {this.props.imageURL} 
-              handleClose ={this.props.handleClose}
-              description ={this.props.description}
-              title ={this.props.title}
-              handleShow={this.state.modalOn}
-            /> */}
           </Card.Body>
         </Card>
     )
