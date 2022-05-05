@@ -59,6 +59,6 @@
 
 - Start time: 750P
 
-- Finish time: 
+- Finish time: 850 P  
 
-- Actual time needed to complete: 
+- Actual time needed to complete: 1hr
