@@ -36,7 +36,8 @@ class HornedBeast extends React.Component {
         <Card.Body>
           <Card.Title>{this.props.title}</Card.Title>
             <Card.Text>
-              {this.props.description}
+              <p>{this.props.description}</p>
+              <p>Horn Count: {this.props.horns}</p>
             </Card.Text>
           </Card.Body>
           <Card.Body>

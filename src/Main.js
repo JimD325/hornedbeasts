@@ -22,6 +22,7 @@ class Main extends React.Component {
                 imageURL = {beast.image_url}
                 description = {beast.description}
                 handleOpenModal={this.props.handleOpenModal}
+                horns={beast.horns}
               />
             </Col>
 

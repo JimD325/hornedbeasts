@@ -16,6 +16,7 @@ class SelectedBeast extends React.Component{
           
           <img src={this.props.selectedBeast.image_url} alt={this.props.selectedBeast.title}/> 
           
+          <p>{this.props.selectedBeast.title} number of horns: {this.props.selectedBeast.horns} </p>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={this.props.handleClose}>Close</Button>
