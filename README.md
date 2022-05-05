@@ -39,7 +39,7 @@
 
 - Actual time needed to complete: 45min <br>
 
-## Lab 2  
+## Lab 3  
 
 - Feature 1: Display a Modal
 
@@ -51,3 +51,14 @@
 
 - Actual time needed to complete: 2hr 25min
 
+## Lab 4 
+
+- Feature 1. Filter by Numbers of Horns
+
+- Estimate of time needed to complete: 2 hours
+
+- Start time: 750P
+
+- Finish time: 850 P  
+
+- Actual time needed to complete: 1hr
