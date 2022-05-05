@@ -13,18 +13,18 @@ class Main extends React.Component {
 
       
       <Container>
-        <Row> 
-          {this.props.Beasts.map(beast => (
-          
+        <Row sm={2} md={3} lg ={4}> 
+          {this.props.Beasts.map(beast  => (
             <Col>
               <HornedBeast
                 key={beast._id} 
                 title = {beast.title}
                 imageURL = {beast.image_url}
                 description = {beast.description}
+                handleOpenModal={this.props.handleOpenModal}
               />
             </Col>
-          
+
           ))}
         </Row>  
       </Container>
